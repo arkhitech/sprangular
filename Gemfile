@@ -1,4 +1,4 @@
-ruby "2.1.5"
+#ruby "2.1.5"
 
 source "https://rubygems.org"
 source "https://rails-assets.org"
@@ -15,11 +15,12 @@ gemspec
 
 # To use debugger
 # gem 'debugger'
-gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-4-stable'
-gem 'spree_backend', github: 'spree/spree', branch: '2-4-stable'
-gem 'spree_gateway', github: 'spree/spree_gateway', branch: '2-4-stable'
-gem 'sass-rails', github: 'rails/sass-rails'
+gem 'spree_auth_devise'#, github: 'spree/spree_auth_devise', branch: '2-4-stable'
+gem 'spree_backend'#, github: 'spree/spree', branch: '2-4-stable'
+gem 'spree_gateway'#, github: 'spree/spree_gateway', branch: '2-4-stable'
+gem 'sass-rails'#, github: 'rails/sass-rails'
 gem 'pry-rails'
+gem 'sprockets-rails',  '~> 2.2.0'
 
 group :test do
   gem 'factory_girl'
