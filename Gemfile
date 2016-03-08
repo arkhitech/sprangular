@@ -20,7 +20,8 @@ gem 'spree_backend'#, github: 'spree/spree', branch: '2-4-stable'
 gem 'spree_gateway'#, github: 'spree/spree_gateway', branch: '2-4-stable'
 gem 'sass-rails'#, github: 'rails/sass-rails'
 gem 'pry-rails'
-gem 'sprockets-rails',  '~> 2.2.0'
+gem 'sprockets-rails'
+gem 'ngannotate-rails', github: 'arkhitech/ngannotate-rails'
 
 group :test do
   gem 'factory_girl'
